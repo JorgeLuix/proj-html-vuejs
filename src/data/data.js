@@ -2,7 +2,7 @@ const headerItems =  [
         'home',
         'features +',
         'achievement',
-        'blog',
+        'blog +',
         'contact'
 ]
 export { headerItems }
