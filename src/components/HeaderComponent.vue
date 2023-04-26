@@ -1,5 +1,5 @@
 <template>
-    <header class="">
+    <header class="container-fluid">
         <div class="container d-flex align-items-center justify-content-between">
         <img src="../assets/imgs/logo.png" alt="logo">
             <ul class="d-flex gap-4 text-uppercase align-items-center">
@@ -45,6 +45,8 @@ import {headerItems } from '../data/data.js'
 <style lang="scss" scoped>
     header {
         background-color: var(--colorBlue);
+        position: fixed;
+        z-index: 1000;
     }
     .jumbotron{
         background-color: var(--colorBlue);

@@ -3,7 +3,7 @@
         <div class="container text-center p-5">
             <div>
                 <h6 class="text-uppercase">today's</h6>
-                <h1 class="text-uppercase text-white">our game collection</h1>
+                <h1 class="text-uppercase text-white py-3">our game collection</h1>
             </div>
             <div class=" container d-flex justify-content-between">
                 <div class="row card card-bg p-5" v-for="(card, index) in cards" :key="index">
