@@ -4,3 +4,23 @@
 @import '@fortawesome/fontawesome-free/scss/regular';
 @import '@fortawesome/fontawesome-free/scss/brands';
 @import 'bootstrap/scss/bootstrap';
+
+:root{
+    --colorRed: #FF0052;
+    --colorBlue: #131661;
+    --colorWhite: #FFFFFF;
+    --lightgreen: #00B67A;
+    --colorBlack: #000000;
+    --secondaryBlue: #232A5C;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+li a{
+    text-decoration: none;
+}
