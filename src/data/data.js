@@ -77,5 +77,31 @@ const items = [
       img: '/src/assets/imgs/live-5.jpg',
       title: 'where can i redeem my'
     }
-  ]
-export { headerItems, teams, items, squad, streaming  }
+  ];
+  const Tshirt = [
+    
+    { img: '/src/assets/imgs/maglietta_01.jpg',
+     title: 'black t-shirt here', 
+     prezzo: '$380.00',
+     voto: '7.72'
+     },
+    
+     { img: '/src/assets/imgs/maglietta_02.jpg',
+     title: 'green t-shirt here', 
+     prezzo: '$380.00',
+     voto: '10.254'
+     },
+    
+     { img: '/src/assets/imgs/maglietta_03.jpg',
+     title: 'yellow t-shirt here',
+     prezzo: '$380.00', 
+     voto: '5.635'
+     },
+     { img: '/src/assets/imgs/maglietta_04.jpg',
+     title: 'blue t-shirt here',
+     prezzo: '$380.00', 
+     voto: '8.564'
+     }
+   
+  ];
+export { headerItems, teams, items, squad, streaming, Tshirt  }

@@ -71,6 +71,6 @@ import { streaming } from '../data/data.js';
 }
 .streaming-card:hover .play{
     cursor: pointer;
-    
+    color: red;
 }
 </style>
