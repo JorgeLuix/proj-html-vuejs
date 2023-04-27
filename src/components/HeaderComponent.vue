@@ -1,10 +1,10 @@
 <template>
     <header class="container-fluid">
-        <div class="container d-flex align-items-center justify-content-between">
+        <div class="container d-flex flex-wrap align-items-center justify-content-between">
         <img src="../assets/imgs/logo.png" alt="logo">
-            <ul class="d-flex gap-4 text-uppercase align-items-center">
+            <ul class="d-flex  flex-wrap text-uppercase align-items-center mb-0">
                 <li class="p-3" v-for="item in headerItems" :key="item">
-                <a class="text-white" href="#">{{ item }}</a> 
+                <a class="nav-link text-white" href="#">{{ item }}</a> 
                 </li>
             </ul>
             <div>
