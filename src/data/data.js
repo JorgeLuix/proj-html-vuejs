@@ -28,4 +28,31 @@ const items = [
      title: '240k streams complete',
       description: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services' },
   ];
-export { headerItems, teams, items  }
+  const squad= [
+    {
+      img: '/src/assets/imgs/team-2.png',
+      imgbg: '/src/assets/imgs/5.jpg',
+      title: 'gaming team'
+    },
+    {
+      img: '/src/assets/imgs/team-3.png',
+      imgbg: '/src/assets/imgs/1.jpg',
+      title: 'dragon team'
+    },
+    {
+      img: '/src/assets/imgs/team-5.png',
+      imgbg: '/src/assets/imgs/2.jpg',
+      title: 'frogs team'
+    },
+    {
+      img:'/src/assets/imgs/tiger.png',
+      imgbg: '/src/assets/imgs/3.jpg',
+      title: 'Tigers team'
+    },
+    {
+      img: '/src/assets/imgs/teamsm-5.png',
+      imgbg: '/src/assets/imgs/4.jpg',
+      title: 'shark team'
+    }
+  ]
+export { headerItems, teams, items, squad  }

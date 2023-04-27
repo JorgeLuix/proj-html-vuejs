@@ -2,14 +2,17 @@
     <div>
         <CollectionMain/>
     </div>
-    <div>2</div>
+    <div>
+        <SquadPlayers/>
+    </div>
 </template>
 
 <script>
-import CollectionMain from '../components/CollectionMain.vue'
+import CollectionMain from '../components/CollectionMain.vue';
+import SquadPlayers from '../components/SquadPlayers.vue';
 
     export default {
-        components: { CollectionMain },
+        components: { CollectionMain,SquadPlayers },
     
     };
 </script>
