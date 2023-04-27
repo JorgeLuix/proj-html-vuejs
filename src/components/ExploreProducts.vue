@@ -5,10 +5,10 @@
             <h1 class="text-uppercase text-white py-3">explore our products</h1>
         </div>
         <div class="box-image container">
-            <div class="image-col list d-flex ">
-                <div class="card item m-2" v-for="(shirt, index) in Tshirt" :key="index">
+            <div class="list d-flex ">
+                <div class="card item m-2 mb-5" v-for="(shirt, index) in Tshirt" :key="index">
                     <img :src="shirt.img" alt="">
-                    <div class="text-center text-white">
+                    <div class="text-center text-white py-3">
                         <p class="">{{ shirt.title }}</p>
                         <p>{{ shirt.prezzo }}</p>
                         <span class="card-text"></span>
@@ -17,16 +17,33 @@
                     </div>
                 </div>
             </div>
+            <hr class="text-light">
+        </div>
+        <!--section partners-->
+        <div class="text-center mt-5">
+            <h6 class="text-uppercase text-danger">we our partners</h6>
+            <h1 class="text-uppercase text-white py-3">become a partner of gamer</h1>
+        </div>
+        <div class="parteners text-center container">
+            <div class="d-flex flex-wrap justify-content-center">
+                <img class="p-5" v-for="path in stemmi" :key="path" :src="path" />
+            </div>
+            <button type="button" class="btn rounded-0 btn-light 
+                    text-uppercase text-danger my-5"> become a partner
+                    <i class="fa-solid fa-circle-chevron-right"></i>
+            </button>
         </div>
     </div>
 </template>
 
 <script>
 import { Tshirt } from '../data/data.js';
+import { stemmi } from '../data/data.js'
     export default {
         data(){
             return{
-                Tshirt: Tshirt
+                Tshirt: Tshirt,
+                stemmi:stemmi
             }
         },
         methods: {

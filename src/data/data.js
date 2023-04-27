@@ -104,4 +104,15 @@ const items = [
      }
    
   ];
-export { headerItems, teams, items, squad, streaming, Tshirt  }
+  const stemmi = [
+    '/src/assets/imgs/stemmi-01.png',
+    '/src/assets/imgs/stemmi-02.png',
+    '/src/assets/imgs/stemmi-03.png',
+    '/src/assets/imgs/stemmi-04.png',
+    '/src/assets/imgs/stemmi-05.png',
+    '/src/assets/imgs/stemmi-06.png',
+    '/src/assets/imgs/teamsm-9.png',
+    '/src/assets/imgs/teamsm-10.png'
+
+];
+export { headerItems, teams, items, squad, streaming, Tshirt, stemmi }
