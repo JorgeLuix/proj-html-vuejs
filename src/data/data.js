@@ -54,5 +54,28 @@ const items = [
       imgbg: '/src/assets/imgs/4.jpg',
       title: 'shark team'
     }
+  ];
+ 
+  const streaming= [
+    {
+      img: '/src/assets/imgs/live-1.jpg',
+      title: '2022 lvp superliga orange summer'
+    },
+    {
+      img: '/src/assets/imgs/live-2.jpg',
+      title: 'pubg classic tournament.'
+    },
+    {
+      img: '/src/assets/imgs/live-3.jpg',
+      title: 'can i add my local bank...'
+    },
+    {
+      img:'/src/assets/imgs/live-4.jpg',
+      title: 'league battle tournament'
+    },
+    {
+      img: '/src/assets/imgs/live-5.jpg',
+      title: 'where can i redeem my'
+    }
   ]
-export { headerItems, teams, items, squad  }
+export { headerItems, teams, items, squad, streaming  }

@@ -12,7 +12,7 @@
                             <img :src="item.img" :alt="item.title" class="card-img">
                         <div class="card-body text-center text-white">
                             <h5 class="card-title">{{item.title}}</h5>
-                            <div class="social d-flex">
+                            <div class="social d-flex justify-content-center">
                                 <img src="../assets/imgs/social-1.png" alt="vi">
                                 <img src="../assets/imgs/social-2.png" alt="youtube">
                                 <img src="../assets/imgs/social-3.png" alt="twicht">
