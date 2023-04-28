@@ -148,6 +148,26 @@ const posts = [
     description: 'È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.',
     voto:'5.28'
   }
-]
+];
+const jackpot = [
+  {
+    img: '/src/assets/imgs/01 (4).jpg',
+    title: 'free poker gamer',
+    price: '$230',
+    vote: '59.26'
+  },
+  {
+    img: '/src/assets/imgs/02.jpg',
+    title: 'club poker game',
+    price: '$290',
+    vote: '59.26'
+  },
+  {
+    img: '/src/assets/imgs/03.jpg',
+    title: 'royal poker game',
+    price: '$330',
+    vote: '59.26'
+  }
+];
 export { headerItems, teams, items, squad, 
-  streaming, Tshirt, stemmi, popular,posts }
+  streaming, Tshirt, stemmi, popular,posts,jackpot }
