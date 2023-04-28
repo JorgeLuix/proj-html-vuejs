@@ -130,5 +130,24 @@ const popular = [
     data: '01 january 2022',
     description: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services mutfuncto users whereas communicate leveraged servicesmutfuncto users whereas communicate leveraged services',
   }
+];
+const posts = [
+  {
+    imageUser:'/src/assets/imgs/01 (2).jpg',
+    imgteam: '/src/assets/imgs/stemmi-04.png',
+    title: 'Madley pondnor',
+    type: 'UI designer',
+    description: 'È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.',
+    voto:'5.28'
+  },
+  {
+    imageUser:'/src/assets/imgs/01 (2).jpg',
+    imgteam: '/src/assets/imgs/stemmi-03.png',
+    title: 'olviver beddows',
+    type: 'UI designer',
+    description: 'È universalmente riconosciuto che un lettore che osserva il layout di una pagina viene distratto dal contenuto testuale se questo è leggibile. Lo scopo dell’utilizzo del Lorem Ipsum è che offre una normale distribuzione delle lettere (al contrario di quanto avviene se si utilizzano brevi frasi ripetute, ad esempio “testo qui”), apparendo come un normale blocco di testo leggibile.',
+    voto:'5.28'
+  }
 ]
-export { headerItems, teams, items, squad, streaming, Tshirt, stemmi, popular }
+export { headerItems, teams, items, squad, 
+  streaming, Tshirt, stemmi, popular,posts }

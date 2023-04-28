@@ -7,6 +7,7 @@
         <LiveStream/>
         <ExploreProducts/>
         <MostPopular/> 
+        <TestimonialPopular/>
     </div>
 </template>
 
@@ -16,9 +17,10 @@ import SquadPlayers from '../components/SquadPlayers.vue';
 import LiveStream from '../components/LiveStream.vue';
 import ExploreProducts from '../components/ExploreProducts.vue';
 import MostPopular from '../components/MostPopular.vue';
+import TestimonialPopular from './TestimonialPopular.vue';
 
     export default {
-        components: { CollectionMain, SquadPlayers, LiveStream, ExploreProducts, MostPopular },
+        components: { CollectionMain, SquadPlayers, LiveStream, ExploreProducts, MostPopular, TestimonialPopular },
     
     };
 </script>

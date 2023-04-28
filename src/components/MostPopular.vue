@@ -25,14 +25,16 @@
         </div>
       </div>
     </div>
-  </template>
+</template>
 
 <script>
 import { popular } from '../data/data.js';
+
 export default {
   data() {
     return {
-      popular: popular
+      popular: popular,
+      
     }
   },
   methods: {
@@ -43,7 +45,7 @@ export default {
         day: 'numeric'
       });
       return currentDate;
-    }
+    },
   }
 }
 </script>
@@ -64,4 +66,6 @@ export default {
 .jc-shadow{
   box-shadow: rgb(235, 7, 7) 0px 25px 20px -20px;
 }
+/*****testimonial popular***** */
+
 </style>
