@@ -115,4 +115,20 @@ const items = [
     '/src/assets/imgs/teamsm-10.png'
 
 ];
-export { headerItems, teams, items, squad, streaming, Tshirt, stemmi }
+const popular = [
+  {
+    img:'/src/assets/imgs/popular-01.jpg',
+    title:'Distintive redefine resource maximizing for',
+    user: 'admin',
+    data: '01 january 2022',
+    description:'Distinctively provide acces mutfuncto users whereas communicate leveraged services mutfuncto users whereas communicate leveraged servicesmutfuncto users whereas communicate leveraged services',
+  },
+  {
+    img:'/src/assets/imgs/popular-02.jpg',
+    title:'redfine resource maximizing for distinctive',
+    user: 'admin',
+    data: '01 january 2022',
+    description: 'Distinctively provide acces mutfuncto users whereas communicate leveraged services mutfuncto users whereas communicate leveraged servicesmutfuncto users whereas communicate leveraged services',
+  }
+]
+export { headerItems, teams, items, squad, streaming, Tshirt, stemmi, popular }

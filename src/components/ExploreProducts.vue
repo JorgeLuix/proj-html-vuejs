@@ -59,7 +59,7 @@ import { stemmi } from '../data/data.js'
 .bg-shirt{
     background-color: var(--secondaryBlue);
 }
-    .box-image .list .item{
+.box-image .list .item{
     width: 100%;
     padding: 10px;
     background-color: var(--color-cards);

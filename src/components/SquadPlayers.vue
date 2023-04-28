@@ -5,7 +5,7 @@
             <h1 class="text-uppercase text-white py-3">meet our squad players</h1>
         </div>
         <div class="card-container">
-            <div class="row">
+            <div class="row d-flex justify-content-center">
                 <div class="col-md-4 col-lg-2" v-for="item in squad" :key="item.title">
                     <div class="cards m-4 mb-3" :style="{ 'background-image': 'url(' + item['imgbg'] + ')', 
                     'background-size': 'cover', 'width': '100%', 'height': '100%' }">
@@ -23,7 +23,7 @@
             </div>
         </div>
         <!--section join gamer-->
-        <div class="play-gamer container">
+        <div class="play-gamer container d-flex justify-content-center">
             <div class="row">
                 <div class="col-lg-6 p-5">
                     <div>
