@@ -169,5 +169,37 @@ const jackpot = [
     vote: '59.26'
   }
 ];
+const upcomingmatches = [
+  '/src/assets/imgs/teamsm-10.png',
+  '/src/assets/imgs/teamsm-6.png',
+  '/src/assets/imgs/team-3.png',
+  '/src/assets/imgs/team-4.png',
+  '/src/assets/imgs/team-5.png',
+  '/src/assets/imgs/teamsm-9.png'
+];
+const previousmatches = [
+  '/src/assets/imgs/teamsm-11.png',
+  '/src/assets/imgs/teamsm-12.png',
+  '/src/assets/imgs/teamsm-8.png',
+  '/src/assets/imgs/teamsm-7.png',
+  '/src/assets/imgs/team-6.png',
+  '/src/assets/imgs/team-5.png'
+
+];
+const datamatch = [
+  {
+    title:'call of duty tournament',
+    data:''
+  },
+  {
+    title:'league battle tournament',
+    data:''
+  },
+  {
+    title:'pug classic tournament',
+    data:''
+  }
+];
 export { headerItems, teams, items, squad, 
-  streaming, Tshirt, stemmi, popular,posts,jackpot }
+  streaming, Tshirt, stemmi, popular,posts, 
+  jackpot, upcomingmatches, previousmatches, datamatch }

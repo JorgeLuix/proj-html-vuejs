@@ -7,7 +7,7 @@
                 <h1 class="text-uppercase text-white py-3">our game collection</h1>
             </div>
             <div class=" container d-flex flex-wrap justify-content-center">
-                <div class="card card-bg p-3 my-3 mx-3" v-for="(card, index) in cards" :key="index">
+                <div class="card shadow-card card-bg p-3 my-3 mx-3" v-for="(card, index) in cards" :key="index">
                     <div class="d-flex align-items-center">
                         <img  :src="teams[card[0]]" class="img-fluid my-3">
                         <img class="px-2 img-fluid" src="../assets/imgs/vs.png">
@@ -81,7 +81,7 @@ h1{
     font-size: 5rem;
 }
 .card-bg{
-    background-color: rgb(35, 35, 93);
+    background-color: var(--color-cards);
 }
 hr{
     color: gray;

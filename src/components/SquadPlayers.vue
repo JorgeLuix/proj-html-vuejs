@@ -91,6 +91,5 @@ h1{
     background-image: url(../assets/imgs/bgGamer.jpg);
     background-repeat: no-repeat;
     margin-top: 8rem;
-    
 }
 </style>

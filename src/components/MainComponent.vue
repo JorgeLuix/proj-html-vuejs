@@ -3,6 +3,7 @@
         <CollectionMain/>
     </div>
     <div>
+        <AllMatches/>
         <SquadPlayers/>
         <LiveStream/>
         <ExploreProducts/>
@@ -18,9 +19,10 @@ import LiveStream from '../components/LiveStream.vue';
 import ExploreProducts from '../components/ExploreProducts.vue';
 import MostPopular from '../components/MostPopular.vue';
 import TestimonialPopular from './TestimonialPopular.vue';
+import AllMatches from './AllMatches.vue';
 
     export default {
-        components: { CollectionMain, SquadPlayers, LiveStream, ExploreProducts, MostPopular, TestimonialPopular },
+        components: { CollectionMain, SquadPlayers, LiveStream, ExploreProducts, MostPopular, TestimonialPopular, AllMatches },
     
     };
 </script>
