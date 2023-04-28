@@ -1,8 +1,8 @@
 <template>
     <main class="">
-        <div class="d-flex p-5 container justify-content-center">
-            <div class=" text-center">
-                <h2 class="text-white">Upcoming matches</h2>
+        <div class="d-flex p-5 m-auto container justify-content-center row">
+            <div class="col text-center sm:text-center md:flex">
+                <h2 class="text-white text-2xl sm:text-4xl md:text-6xl">Upcoming matches</h2>
                     <div v-for="(match, index) in group" :key="`upcoming-${index}`" 
                         class="card m-3 rounded-0">
                         <section class="card-header rounded-0 bg-danger text-white d-flex justify-content-between">
@@ -27,8 +27,8 @@
                         </div> 
                     </div>
             </div>
-            <div class=" text-center">
-                <h2 class="text-white">Previous matches</h2>
+            <div class="col text-center sm:text-center md:flex">
+                <h2 class="text-white sm:text-center md:flex">Previous matches</h2>
                 <div class="">
                     <div v-for="(match, index) in grouptwo" :key="`previous-${index}`"
                     class="card m-3 rounded-0">
