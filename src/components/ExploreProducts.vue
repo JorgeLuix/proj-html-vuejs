@@ -29,7 +29,7 @@
                 <img class="p-5" v-for="path in stemmi" :key="path" :src="path" />
             </div>
             <button type="button" class="btn rounded-0 btn-light 
-                    text-uppercase text-danger my-5"> become a partner
+                    text-uppercase text-danger my-5 btn-shadow"> become a partner
                     <i class="fa-solid fa-circle-chevron-right"></i>
             </button>
         </div>

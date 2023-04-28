@@ -32,7 +32,7 @@
                         <p class="text-white">Distinctively provide acces mutfuncto users whereas transparent proceses
                              somes ncentivize eficient functionalities rather than an extensile archtectur services and cross</p>
                         <button type="button" class="btn rounded-0 btn-light 
-                    text-uppercase text-danger my-5"> join community
+                    text-uppercase text-danger my-5 btn-shadow"> join community
                     <i class="fa-solid fa-circle-chevron-right"></i>
                         </button>
                      </div>

@@ -16,7 +16,7 @@
                 </div>
             </div>
             <button type="button" class="btn rounded-0 btn-light 
-                    text-uppercase text-danger my-5"> browse all games
+                    text-uppercase text-danger my-5 btn-shadow"> browse all games
                     <i class="fa-solid fa-circle-chevron-right"></i>
             </button>
             <hr class="container pt-5">

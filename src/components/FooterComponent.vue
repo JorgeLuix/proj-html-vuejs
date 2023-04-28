@@ -67,6 +67,7 @@
     </div>
     <div class="footer-copyright d-flex justify-content-center align-items-center ">
         <p><i class="fa-regular fa-copyright"></i>2022 Gamer-eSport And Gameing HTML Template.</p>
+        
     </div>
 </template>
 

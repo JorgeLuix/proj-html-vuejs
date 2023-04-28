@@ -24,7 +24,7 @@
             <p class="text-capitalize ">Assertively Communicate An expanded array of mindshare rather than 
                 diverse technologies for magnetic applications eamlessly virtual then conveniently monetize synergistic huaman capital</p>
                 <button type="button" class="btn rounded-0 btn-light 
-                text-uppercase text-danger fw-bold">
+                text-uppercase text-danger btn-shadow">
                  join us today <i class="fa-solid fa-circle-play"></i></button>  
         </div>
     </div> 
