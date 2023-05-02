@@ -1,7 +1,7 @@
 <template>
     <main class="">
-        <div class="d-flex p-5 m-auto container justify-content-center row">
-            <div class="col text-center sm:text-center md:flex">
+        <div class="d-flex p-5 m-auto container justify-content-center flex-wrap">
+            <div class="col-md-6 text-center sm:text-center md:flex">
                 <h2 class="text-white text-2xl sm:text-4xl md:text-6xl">Upcoming matches</h2>
                     <div v-for="(match, index) in group" :key="`upcoming-${index}`" 
                         class="card m-3 rounded-0">
@@ -27,7 +27,7 @@
                         </div> 
                     </div>
             </div>
-            <div class="col text-center sm:text-center md:flex">
+            <div class="col-md-6 text-center sm:text-center md:flex">
                 <h2 class="text-white sm:text-center md:flex">Previous matches</h2>
                 <div class="">
                     <div v-for="(match, index) in grouptwo" :key="`previous-${index}`"

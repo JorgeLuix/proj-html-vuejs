@@ -6,7 +6,7 @@
         </div>
         <div class="card-container">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4 col-lg-2" v-for="item in squad" :key="item.title">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2" v-for="item in squad" :key="item.title">
                     <div class="cards m-4 mb-3" :style="{ 'background-image': 'url(' + item['imgbg'] + ')', 
                     'background-size': 'cover', 'width': '100%', 'height': '100%' }">
                             <img :src="item.img" :alt="item.title" class="card-img">
@@ -67,12 +67,15 @@ h1{
   justify-content: center;
 }
 .cards {
-  /*margin: 10px;*/
+  margin: 10px;
   margin-bottom: 10px;
   padding: 3rem;
-
+  transition: all 0.3s ease-in-out;
 }
-
+.cards:hover {
+  box-shadow: 0 0 20px var(--colorBlue);
+  transition: box-shadow 0.5s ease;
+}
 .cards-img {
  width: 50%;
  display: flex;

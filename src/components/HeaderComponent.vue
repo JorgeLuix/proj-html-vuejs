@@ -15,7 +15,7 @@
                 text-uppercase">
                 <i class="fa-solid fa-users"></i> Sign up</button>
             </div>
-        </div>
+        </div>                                                          
     </header>
     <div class="jumbotron">
         <div class="jumb">
@@ -68,4 +68,26 @@ import {headerItems } from '../data/data.js'
     .jumb h1{
         font-size: 5rem;
     }
+    @media screen and (max-width: 768px) {
+  .jumb {
+    width: 100%;
+    height: auto;
+    padding-top: 6rem;
+    padding-left: 2rem;
+    margin-left: 0;
+    line-height: 1.5;
+  }
+  
+  .jumb h1 {
+    font-size: 3rem;
+  }
+  
+  .jumb h3 {
+    font-size: 1.5rem;
+  }
+  
+  .jumb p {
+    font-size: 0.8rem;
+  }
+}
 </style>

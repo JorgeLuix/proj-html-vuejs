@@ -17,6 +17,7 @@
                     </button>
                     <p class="text-white">{{stream.title}}</p>
                 </div>
+                <div class="play-overlay"></div>
                 <div class="play">
                     <i class="fa-solid fa-circle-play"></i>
                 </div>
@@ -56,21 +57,43 @@ import { streaming } from '../data/data.js';
   padding: 10px;
   position: relative;
 }
+.play-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.play-overlay:hover {
+  opacity: 1;
+}
 .play{
     position: absolute;
     font-size: 2rem;
-    top: 45%;
+    top: 50%;
     left: 50%;
     padding: 18px;
     background-color: #a5a5a4;
-   border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
     opacity: 1;
     transition: all ease 0.4s;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     color: white;
 }
 .streaming-card:hover .play{
     cursor: pointer;
     color: red;
 }
+.play:hover {
+  cursor: pointer;
+}
+.play:hover i {
+  transform: scale(1.4);
+}
+
 </style>
