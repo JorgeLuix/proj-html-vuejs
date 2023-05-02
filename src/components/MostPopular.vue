@@ -52,6 +52,7 @@ export default {
 
 <style lang="scss" scoped>
 .bg-popular{
+   width: 100%;
     background-image: url(../assets/imgs/bgg-2.jpg);
     background-size: contain;
 }
